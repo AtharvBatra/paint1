@@ -18,5 +18,12 @@ function draw() {
 					posY: this.mouseY
  })
 
+	mousePressed();
 
 } 
+
+
+function mousePressed(){
+ 	stroke(255)
+	line(pmouseX, pmouseY, mouseX, mouseY)
+}
